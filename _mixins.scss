@@ -38,6 +38,6 @@
 @mixin sizingGenerator ($values, $property, $prefix) {
   @each $iteration, $value in $values {
     $class : #{$prefix}#{$iteration};
-    @include subClasses($class, $property, '#{$value}rem');
+    @include subClasses($class, $property, #{$value}rem);
   }
 }
