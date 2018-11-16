@@ -3,22 +3,22 @@
 
   &--1col {
     @media (min-width: $l-1col) {
-      #{$property}: $value;
+      #{$property}: $value !important;
     }
   }
   &--2col {
     @media (min-width: $l-2col) {
-      #{$property}: $value;
+      #{$property}: $value !important;
     }
   }
   &--3col {
     @media (min-width: $l-3col) {
-      #{$property}: $value;
+      #{$property}: $value !important;
     }
   }
   &--4col {
     @media (min-width: $l-4col) {
-      #{$property}: $value;
+      #{$property}: $value !important;
     }
   }
 }
