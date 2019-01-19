@@ -21,6 +21,11 @@
       #{$property}: $value !important;
     }
   }
+  &--5col {
+    @media (min-width: $l-5col) {
+      #{$property}: $value !important;
+    }
+  }
 }
 
 @mixin subClasses ($class, $property, $value) {
