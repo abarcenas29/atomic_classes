@@ -204,6 +204,10 @@ body {
     // justify-content
     @include createSubClass($justifyContentProperty, 'justify-content');
   
+    &-fg-1 {
+      flex-grow: 1;
+    }
+
     // position
     &-p-rel {
       @include media ('position', relative);
